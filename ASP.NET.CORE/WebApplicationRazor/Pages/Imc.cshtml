@@ -1,0 +1,27 @@
+﻿@page
+@model WebApplicationRazor.Pages.ImcModel
+@{
+    ViewData["Title"] = "IMC";
+}
+
+<html>
+   <head>
+       <title>@ViewData["Title"]</title>
+   </head>
+   <body>
+       <h1>2. Indice de masa corporal</h1>
+
+       <form method="post">
+           <!-- Entrada -->
+           <input type="text" asp-for="Peso" required />
+           <input type="text" asp-for="Altura" required />
+           <!-- Salida -->
+           <input type="text" value="@Model.Imc" disabled />
+           <input type="text" value="@Model.Clasificacion" disabled />
+           <input type="text" value="@Model.M" disabled />
+           <!-- Acción -->
+           <input type="submit" asp-page-handler="Calcular" value="Calcular" />
+       </form>
+   </body>
+</html>
+

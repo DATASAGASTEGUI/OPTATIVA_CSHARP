@@ -1,0 +1,87 @@
+inicio.bat
+.gitignore
+
+# ==========================================
+# VISUAL STUDIO
+# ==========================================
+
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ==========================================
+# COMPILACION .NET
+# ==========================================
+
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rtifacts/
+
+# ==========================================
+# ARCHIVOS EJECUTABLES Y COMPILADOS
+# ==========================================
+
+*.exe
+*.dll
+*.pdb
+*.cache
+*.ilk
+*.obj
+*.class
+
+# ==========================================
+# RESULTADOS DE PRUEBAS
+# ==========================================
+
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# ==========================================
+# PUBLICACION
+# ==========================================
+
+publish/
+*.publishsettings
+*.pubxml.user
+
+# ==========================================
+# SISTEMAS OPERATIVOS
+# ==========================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# ARCHIVOS TEMPORALES
+# ==========================================
+
+*.tmp
+*.log
+*.bak
+*.old
+
+# ==========================================
+# CONFIGURACION LOCAL Y SECRETOS
+# ==========================================
+
+.env
+.env.*
+!.env.example
+
+secrets.json
+appsettings.Local.json
+
+# ==========================================
+# ARCHIVOS DE DESARROLLO
+# ==========================================
+
+*.userprefs
+*.pidb
+*.svclog

@@ -1,0 +1,50 @@
+************************
+***   ASP.NET.CORE   ***
+************************
+-------------------------------------------------------
+AQUITUCTRUAS PARA PROYECTOS WEB
+-------------------------------------------------------
+Razor Pages
+MVC
+-------------------------------------------------------
+ESTRUCTURA DEL PROYECTO
+-------------------------------------------------------
+WebApplicationRazor/
+├── WebApplicationRazor.csproj
+├── Program.cs                ← Punto de entrada de una aplicacion web (Main)
+├── appsettings.json          ← Cambiar el puerto
+├── Properties/
+│   └── launchSettings.json   ← Aquí cambias el puerto
+├── Pages/
+│   ├── Index.cshtml          ← Vista  (FrontEnd)  Html,estilo,boostram
+│   ├── Index.cshtml.cs       ← Modelo (BackEnd)   csharp
+│   ├── _ViewImports.cshtml
+│   └── _ViewStart.cshtml
+└── wwwroot/
+--------------------------------------------------------------------------------
+CAMBIAR EL PUNTO DE ENTRADA
+--------------------------------------------------------------------------------
+/*
+            // Añade esta línea: redirigir la ruta raíz a /MiPágina
+            app.MapGet("/", context => {
+                context.Response.Redirect("/EcuacionCuadraticaCaja");
+                return Task.CompletedTask;
+            });			
+*/
+-------------------------------------------------------------------------------
+EJERCICIO HACER UNA "RAZOR PAGES" SUMA
+-------------------------------------------------------------------------------
+ENTRADA ----> PROCESO ----> SALIDA	
+
+N1, N2        OnPostSumar   R, M        Modelo
+Cajas         Sumar(Botón)  Cajas       Vista
+-------------------------------------------------------------------------------
+EJERCICIO HACER UNA "RAZOR PAGES" IMC
+-------------------------------------------------------------------------------
+ENTRADA -------> PROCESO --------> SALIDA	
+
+Peso,Altura   OnPostCalcular       Imc,Clasificacion,M    Modelo
+Cajas         Sumar(Botón)         Cajas                  Vista
+-------------------------------------------------------------------------------
+
+	

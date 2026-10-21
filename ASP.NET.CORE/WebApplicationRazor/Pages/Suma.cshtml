@@ -1,0 +1,25 @@
+﻿@page
+@model WebApplicationRazor.Pages.SumaModel
+@{
+    ViewData["Title"] = "Suma";
+}
+
+<html>
+   <head>
+       <title>@ViewData["Title"]</title>
+   </head>
+   <body>
+       <h1>1. Suma de dos números</h1>
+
+       <form method="post">
+           <!-- Entrada -->
+           <input type="text" asp-for="N1" required />
+           <input type="text" asp-for="N2" required />
+           <!-- Salida -->
+           <input type="text" value="@Model.R" disabled />
+           <input type="text" value="@Model.M" disabled />
+           <!-- Acción -->
+           <input type="submit" asp-page-handler="Sumar" value="Sumar" />
+       </form>
+   </body>
+</html>

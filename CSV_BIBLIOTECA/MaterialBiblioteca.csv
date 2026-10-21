@@ -1,0 +1,16 @@
+
+Tipo,IdMaterial,Titulo,AnioPublicacion,Disponible,Autor,NumPaginas,Genero,NumEdicion,Periodicidad,Editorial,Director,DuracionMinutos,ClasificacionEdad
+Libro,1,Cien años de soledad,1967,true,Gabriel García Márquez,471,Novela,,,,,,
+Libro,2,Don Quijote de la Mancha,1605,true,Miguel de Cervantes,863,Clásico,,,,,,
+Libro,3,El principito,1943,false,Antoine de Saint-Exupéry,96,Fábula,,,,,,
+Libro,4,1984,1949,true,George Orwell,328,Ciencia ficción,,,,,,
+Libro,5,La sombra del viento,2001,true,Carlos Ruiz Zafón,576,Misterio,,,,,,
+Revista,6,National Geographic,2025,true,,,,125,Mensual,RBA,,,,
+Revista,7,Muy Interesante,2025,false,,,,410,Mensual,Zinet Media,,,,
+Revista,8,Investigación y Ciencia,2024,true,,,,560,Mensual,Prensa Científica,,,,
+Revista,9,Historia National Geographic,2025,true,,,,245,Mensual,RBA,,,,
+DVD,10,Interstellar,2014,true,,,,,,,Christopher Nolan,169,12
+DVD,11,Coco,2017,true,,,,,,,Lee Unkrich,105,A
+DVD,12,Jurassic Park,1993,false,,,,,,,Steven Spielberg,127,12
+DVD,13,Titanic,1997,true,,,,,,,James Cameron,195,12
+DVD,14,El rey león,1994,true,,,,,,,Roger Allers,88,A
