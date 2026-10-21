@@ -1,0 +1,48 @@
+--------------------------------------------------------------------------------
+Las comas vacías aparecen porque el archivo CSV tiene las mismas  columnas  para 
+todos los tipos de materiales, pero cada clase hija tiene propiedades diferentes.
+--------------------------------------------------------------------------------
+DVD,14,El rey león,1994,true,,,,,,,Roger Allers,88,A
+--------------------------------------------------------------------------------
+1. Recordemos las columnas del CSV
+
+Tipo,
+IdMaterial,
+Titulo,
+AnioPublicacion,
+Disponible,
+Autor,
+NumPaginas,
+Genero,
+NumEdicion,
+Periodicidad,
+Editorial,
+Director,
+DuracionMinutos,
+ClasificacionEdad
+
+La cabecera que definimos fue esta:
+
+Posición		Columna				Valor del DVD
+--------        -------             -------------
+1				Tipo				DVD
+2				IdMaterial			14
+3				Titulo				El rey león
+4				AnioPublicacion		1994
+5				Disponible			true
+6				Autor				Vacío
+7				NumPaginas			Vacío
+8				Genero				Vacío
+9				NumEdicion			Vacío
+10				Periodicidad		Vacío
+11				Editorial			Vacío
+12				Director			Roger Allers
+13				DuracionMinutos		88
+14				ClasificacionEdad	A
+--------------------------------------------------------------------------------
+Padre  :   datos[0], datos[1], datos[2], datos[3], datos[4]
+
+Libro  :   datos[0], datos[1], datos[2], datos[3], datos[4]    datos[5], datos[6],   datos[7]
+Revista:   datos[0], datos[1], datos[2], datos[3], datos[4]    datos[8], datos[9],   datos[10]
+DVD    :   datos[0], datos[1], datos[2], datos[3], datos[4]    datos[11], datos[12], datos[13]
+--------------------------------------------------------------------------------
